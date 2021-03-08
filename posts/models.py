@@ -6,7 +6,6 @@ from taggit.managers import TaggableManager
 from markdownx.models import MarkdownxField
 from markdownx.utils import markdownify
 
-
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=100, unique=True)

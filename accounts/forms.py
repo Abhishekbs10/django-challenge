@@ -8,7 +8,6 @@ from django.forms import (
     CharField,
     PasswordInput,
 )
-
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 

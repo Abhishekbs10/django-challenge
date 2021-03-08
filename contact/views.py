@@ -10,7 +10,6 @@ from django.http import (
 from django.shortcuts import render, reverse
 from django.core.mail import EmailMessage
 
-
 # Create your views here.
 
 class SuccessView(View):

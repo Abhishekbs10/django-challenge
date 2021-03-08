@@ -5,7 +5,6 @@ from django.utils.decorators import method_decorator
 from django.db import transaction
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-
 from .forms import SignUpForm, UserForm
 
 from django.urls import reverse_lazy

@@ -9,3 +9,4 @@ urlpatterns = [
     path('', ContactView.as_view(), name='email-form'),
     path('success/', SuccessView.as_view(), name='success'),
 ]
+
